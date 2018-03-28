@@ -7,5 +7,5 @@ import { Message } from './messages/message.model';
     styleUrls:  ['./app.component.css']
 })
 export class AppComponent {
-    message: Message = new Message('My message', 'Vishal');
+    
 }
