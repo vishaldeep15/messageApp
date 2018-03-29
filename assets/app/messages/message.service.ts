@@ -1,4 +1,4 @@
-import { Message } from './message.model';
+import { Message } from "./message.model";
 
 export class MessageService {
     private messages: Message[] = [];
@@ -8,7 +8,7 @@ export class MessageService {
         console.log(this.messages);
     }
 
-    getMessage() {
+    getMessages() {
         return this.messages;
     }
 
